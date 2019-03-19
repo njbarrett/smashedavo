@@ -17,8 +17,10 @@ class BlogIndex extends React.Component {
                 <SEO
                     title="All posts"
                     keywords={[
+                        `FIRE`,
                         `personal finance`,
-                        `millenials`,
+                        `financial independence`,
+                        `retire early`,
                         `budgeting`,
                         `money`
                     ]}

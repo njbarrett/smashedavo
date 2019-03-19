@@ -2,13 +2,14 @@ module.exports = {
     siteMetadata: {
         title: `Smashed Avo Finance`,
         author: ``,
-        description: `A starter blog demonstrating what Gatsby can do.`,
+        description: `A blog for millennials interested in financial independence, early retirement and frugal living.`,
         siteUrl: `https://smashedavo.finance/`,
         social: {
             twitter: ``
         }
     },
     plugins: [
+        `gatsby-plugin-sass`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -57,8 +58,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `Gatsby Starter Blog`,
-                short_name: `GatsbyJS`,
+                name: `Smashed Avo Finance`,
+                short_name: `smashedavo`,
                 start_url: `/`,
                 background_color: `#ffffff`,
                 theme_color: `#663399`,

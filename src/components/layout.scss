@@ -1,0 +1,19 @@
+body {
+    background-color: #fcf5e6;
+}
+
+h3 {
+    &,
+    > a {
+        color: #a37851;
+    }
+}
+
+a {
+    color: #739c5c;
+}
+
+.blog-header {
+    display: flex;
+    align-items: center;
+}

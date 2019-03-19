@@ -5,6 +5,7 @@ import Bio from '../components/bio';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
+import logo from '../../content/assets/smashed-logo.png';
 
 class BlogPostTemplate extends React.Component {
     render() {
@@ -18,13 +19,37 @@ class BlogPostTemplate extends React.Component {
                     title={post.frontmatter.title}
                     description={post.excerpt}
                 />
-                <h1>{post.frontmatter.title}</h1>
+                <div className="blog-header">
+                    <Link
+                        style={{
+                            boxShadow: `none`,
+                            textDecoration: `none`,
+                            color: `inherit`,
+                            width: 150,
+                            flexShrink: 0,
+                            marginRight: 30
+                        }}
+                        to={`/`}
+                    >
+                        <img
+                            src={logo}
+                            alt={post.frontmatter.title}
+                            style={{
+                                display: 'block',
+                                margin: 'auto',
+                                width: 150
+                            }}
+                        />
+                    </Link>
+                    <h1 style={{ margin: 0 }}>{post.frontmatter.title}</h1>
+                </div>
+
                 <p
                     style={{
                         ...scale(-1 / 5),
                         display: `block`,
                         marginBottom: rhythm(1),
-                        marginTop: rhythm(-1)
+                        marginTop: rhythm(1)
                     }}
                 >
                     {post.frontmatter.date}

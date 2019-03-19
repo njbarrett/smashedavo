@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import logo from '../../content/assets/smashed-logo.png';
+import './layout.scss';
 
 import { rhythm, scale } from '../utils/typography';
 
@@ -26,43 +28,36 @@ class Layout extends React.Component {
                         }}
                         to={`/`}
                     >
-                        {title}
+                        <img
+                            src={logo}
+                            alt={title}
+                            style={{
+                                display: 'block',
+                                margin: 'auto',
+                                width: 200
+                            }}
+                        />
                     </Link>
                 </h1>
             );
         } else {
-            header = (
-                <h3
-                    style={{
-                        fontFamily: `Montserrat, sans-serif`,
-                        marginTop: 0
-                    }}
-                >
-                    <Link
-                        style={{
-                            boxShadow: `none`,
-                            textDecoration: `none`,
-                            color: `inherit`
-                        }}
-                        to={`/`}
-                    >
-                        {title}
-                    </Link>
-                </h3>
-            );
+            header = null;
         }
         return (
             <div
                 style={{
                     marginLeft: `auto`,
                     marginRight: `auto`,
-                    maxWidth: rhythm(24),
+                    maxWidth: rhythm(26),
                     padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`
                 }}
             >
                 <header>{header}</header>
                 <main>{children}</main>
-                <footer>© {new Date().getFullYear()}</footer>
+                <footer>
+                    © Smashed Avo Finance {new Date().getFullYear()}. Content
+                    may not be republished without permission.
+                </footer>
             </div>
         );
     }
