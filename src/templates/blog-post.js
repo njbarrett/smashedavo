@@ -17,6 +17,7 @@ class JustComments extends React.Component {
             <div
                 ref={this.ref}
                 className="just-comments"
+                data-recaptcha="true"
                 data-apikey="61595d05-77be-42a5-9a6e-ca3513f6d192"
             />
         );
