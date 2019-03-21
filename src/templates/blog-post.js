@@ -7,6 +7,28 @@ import SEO from '../components/seo';
 import { rhythm, scale } from '../utils/typography';
 import logo from '../../content/assets/smashed-logo.png';
 
+class JustComments extends React.Component {
+    constructor(...args) {
+        super(...args);
+        this.ref = React.createRef();
+    }
+    render() {
+        return (
+            <div
+                ref={this.ref}
+                className="just-comments"
+                data-apikey="61595d05-77be-42a5-9a6e-ca3513f6d192"
+            />
+        );
+    }
+    componentDidMount() {
+        const s = document.createElement('script');
+        s.src = '//just-comments.com/w.js';
+        s.setAttribute('data-timestamp', +new Date());
+        this.ref.current.appendChild(s);
+    }
+}
+
 class BlogPostTemplate extends React.Component {
     render() {
         const post = this.props.data.markdownRemark;
@@ -85,6 +107,7 @@ class BlogPostTemplate extends React.Component {
                         )}
                     </li>
                 </ul>
+                <JustComments />
             </Layout>
         );
     }

@@ -2,13 +2,6 @@ body {
     background-color: #fcf5e6;
 }
 
-h3 {
-    &,
-    > a {
-        color: #a37851;
-    }
-}
-
 a {
     color: #739c5c;
 }
@@ -16,4 +9,9 @@ a {
 .blog-header {
     display: flex;
     align-items: center;
+}
+
+// Just Comments powered by thing.
+.jcGenCls46 {
+    display: none;
 }

@@ -2,7 +2,7 @@ module.exports = {
     siteMetadata: {
         title: `Smashed Avo Finance`,
         author: ``,
-        description: `A blog for millennials interested in financial independence, early retirement and frugal living.`,
+        description: `A blog for millennials interested in financial independence, early retirement and sustaintable living.`,
         siteUrl: `https://smashedavo.finance/`,
         social: {
             twitter: ``
@@ -51,7 +51,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                //trackingId: `ADD YOUR TRACKING ID HERE`,
+                trackingId: `UA-136664181-1`,
             }
         },
         `gatsby-plugin-feed`,
@@ -59,12 +59,12 @@ module.exports = {
             resolve: `gatsby-plugin-manifest`,
             options: {
                 name: `Smashed Avo Finance`,
-                short_name: `smashedavo`,
+                short_name: `Smashed Avo Finance`,
                 start_url: `/`,
                 background_color: `#ffffff`,
-                theme_color: `#663399`,
+                theme_color: `#fcf5e6`,
                 display: `minimal-ui`,
-                icon: `content/assets/gatsby-icon.png`
+                icon: `src/favicon.png`
             }
         },
         `gatsby-plugin-offline`,

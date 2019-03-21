@@ -55,8 +55,10 @@ class Layout extends React.Component {
                 <header>{header}</header>
                 <main>{children}</main>
                 <footer>
-                    © Smashed Avo Finance {new Date().getFullYear()}. Content
-                    may not be republished without permission.
+                    <small>&copy; Smashed Avo Finance {new Date().getFullYear()}.</small><br />
+                    <small>Content may not be republished without permission.</small><br />
+                    <small>Information provided on this website is general in nature and does not constitute financial advice.</small><br />
+                    <small><a href="https://www.iubenda.com/privacy-policy/78192881" target="_blank" className="iubenda-white iubenda-embed" title="Privacy Policy ">Privacy Policy</a></small>
                 </footer>
             </div>
         );
