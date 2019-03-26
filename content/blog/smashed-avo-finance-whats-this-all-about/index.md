@@ -1,5 +1,5 @@
 ---
-title: Becoming a Financially Independent Millennial
+title: Smashed Avo Finance – What's This All About?
 date: "2019-03-21"
 ---
 
@@ -11,15 +11,19 @@ However blaming the economy is just excuses, the fact is the economy we're in is
 
 I want to talk about the financial lessons they should be teaching kids in schools. This stuff is so important, I can't believe it's taken myself this long to realise it.
 
-Before we get into the real details in later posts, I want to ask why should you care about your finances? It's true that money can't buy happiness, but it can buy freedom. Time is money and money is time. With unlimited time to pursue your passions you have the freedom to do whatever you want, when you want, unshackled from requiring a full time income just to get by.
+First, a little about myself. I'm a 28 year old website developer from Perth Australia. I, like many, was brought up by the world to believe that all you need is a good job, nice house, fancy car and a partner and you've made it. As I've matured I've realised none of that is true. The most important thing you have to spend is _time_. Everyone gets the same amount, unfortunately, some get much less.
 
-My ultimate goal is to steer you on a path to financial independence. This means building a life where the quality of your experiences is not dependent on your income. Many people choose to retire earlier than expected, though that's not the end goal here. In fact, I am not an advocate for early retirement because I think as humans we need jobs and work to motivate our minds. We need that work to be meaningful and fill our brain with all those lovely pleasure chemicals. Not all careers can provide that. So with financial independence comes the freedom to choose what you'd rather be doing, regardless of income.
+With this realisation comes a whole new outlook on life. Suddenly, spending money to own a fancy car seems pointless. Instead, that money could go to work for you in other ways so that in future you have more, and can work less, regaining control of your time. This motivation is what has lead me down the path to working towards financial independence.
+
+Time is money and money is time. With unlimited time to pursue your passions you have the freedom to do whatever you want, when you want, unshackled from requiring a full time income just to get by.
+
+My ultimate goal is to steer you on a path to financial independence too. This means building a life where the quality of your experiences is not dependent on your income. Many people choose to retire earlier than expected, though that's not the end goal here. In fact, I am not an advocate for early retirement because I think as humans we need jobs and work to motivate our minds. We need that work to be meaningful and fill our brain with all those lovely pleasure chemicals. Not all careers can provide that. So with financial independence comes the freedom to choose what you'd rather be doing, regardless of income.
 
 I want to start off by figuring out where you sit currently, you will most likely fit into one of these brackets:
 
 1. I'm financially independent, whether I work or not has no impact on my lifestyle.
 2. I'm working full-time, have no car loans or credit cards, I'm paying off my mortgage or investing and on the path to financial independence but may have a student loan.
-3. I'm working full-time, have a car loan or credit card and student loan, I'm saving for a deposit on a house but not making much progress.
+3. I'm working full-time, have a car loan or credit card and student loan, I'm saving for a deposit on a house, or doing small investments, but not making much progress.
 4. As above but I'm not always meeting my regular payments. Getting charged interest and late fees.
 5. The world is imploding around me. Heavily in debt and struggling with basic living expenses.
 
