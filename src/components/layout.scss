@@ -9,6 +9,16 @@ a {
 .blog-header {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        > * {
+            width: 100%;
+            margin-bottom: 1.75rem;
+        }
+    }
 }
 
 // Just Comments powered by thing.
